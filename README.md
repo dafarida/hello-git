@@ -1,3 +1,3 @@
 ﻿# Hello Git
 
-## เราสวย
+## Farida Wantanyong
