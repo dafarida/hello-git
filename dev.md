@@ -7,8 +7,7 @@ $ git config --global user.email "your email"
 $ git config --list // แสดง config
 
 
-
-Create
+##Create
 $ git init // สร้าง .git และ repo เปล่า
 
 $ git status // แสดงสถานะ
@@ -28,8 +27,7 @@ $ git log // แสดงการทำงาน
 $ git log --oneline // แสดงการทำงานแบบย่อ
 
 
-
-Reset
+##Reset
 $ git checkout {file name} // กู้คืนไฟล์
 
 $ git reset {file name} // กู้คืนไฟล์ หลัง add
@@ -41,8 +39,7 @@ $ git reset --soft HEAD~1 // กู้คืนไฟล์ หลัง commit
 ??? git reset --soft {file name}
 
 
-
-Branch
+##Branch
 $ git branch // ดู branch
 
 $ git branch -a // ดู branch ทั้งหมด
@@ -64,8 +61,7 @@ $ git branch -d {branch name} // ลบ branch
 $ git merge --no-ff {branch name} // รวมไฟล์จาก branch
 
 
-
-Repo
+##Repo
 $ git remote add origin {your repo url} // remote ไปยัง repo ที่สร้าง
 
 $ git remote -v // ตรวจสอบการ remote
@@ -73,8 +69,7 @@ $ git remote -v // ตรวจสอบการ remote
 $ git push -u origin master // การส่งถึง github ครั้งแรก
 
 
-
-Other
+##Other
 $ git fetch // เปรียบเทียบ
 
 $ git merge origin/master // อัพเดท
@@ -98,8 +93,7 @@ $ git rm {file name} // ลบไฟล์
 ??? git stash pop
 
 
-
-Logout
+##Logout
 $ git config --global --unset user.name
 
 $ git config --global --unset user.email
