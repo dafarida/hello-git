@@ -120,13 +120,21 @@ $ git config --global --unset user.email
 
 ## TAG
 $ git tag {tag name}  // ส่วนมากตั้งชื่อเป็น vesrion
+
 $ git status
+
 $ git push --tags
+
 $ git checkout {commit number}
+
 $ git checkout {ชื่อ tag}   // การกลับมา tag เดิม
+
 $ git log --oneline --decorate --graph
+
 $ git tag -d {name tag} // การลบ tag
-git push origin --delete {ชื่อ tag}
+
+$ git push origin --delete {ชื่อ tag}
+
 
 ##check การแก้ไขไฟล์
 
